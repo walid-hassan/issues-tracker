@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(#cdffd5, #71ab75);
+    min-height: 100vh;
+    padding-bottom: 70px;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #c73a4e;
+}
+#total {
+    color: #cd3131;
+    margin-right: 15px;
+}
+#remain {
+    color: #447eb0;
+    margin-right: 8px;
+}
+#close {
+    color:#0ea50e; 
+}
+.jumbotron {
+    background: #18aea0;
+    color: white;
+    box-shadow: 5px 5px 20px #0000008a;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1e6be3;
+    border-color: #1574c7;
+    font-weight: 700;
+    padding: 6px 20px;
+    transition: 500ms;
+    box-shadow: 2px 2px 10px #00000059;
+}
+.well {
+    background-color: #c7ffed;
+    box-shadow: 4px 4px 30px #00000078;
+}
+.form-control {
+    box-shadow: 5px 4px 10px #0000004f;
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+
+.issuesArea {
+    position: relative;
+    top: 70px;
+}
+@media only screen and (min-width: 990px){
+    .inputArea{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 20px;
+    }
+}
